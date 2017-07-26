@@ -6,6 +6,7 @@
 
 从API级别23(6.0)起，以下权限分为PROTECTION_NORMAL：`android.android.Manifest.permission`
 
+```txt
 ACCESS_LOCATION_EXTRA_COMMANDS
 ACCESS_NETWORK_STATE
 ACCESS_NOTIFICATION_POLICY
@@ -40,5 +41,6 @@ USE_FINGERPRINT
 VIBRATE
 WAKE_LOCK
 WRITE_SYNC_SETTINGS
+```
 
 reference: https://developer.android.com/guide/topics/permissions/normal-permissions.html
