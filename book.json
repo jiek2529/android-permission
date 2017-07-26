@@ -1,18 +1,58 @@
 {
-    "plugins": [ "theme-api" ],
-    "pluginsConfig": {
-        "theme-api": {
-            "languages": [
-                {
-                    "lang": "js",
-                    "name": "JavaScript",
-                    "default": true
-                },
-                {
-                    "lang": "go",
-                    "name": "Go"
-                }
-            ]
+"author": "Jiek Gao <jiek@icitsoft.com>",
+"description": "This is a sample book created by gitbook",
+"extension": null,
+"generator": "site",
+"links": {
+    "sharing": {
+        "all": null,
+        "facebook": null,
+        "google": null,
+        "twitter": null,
+        "weibo": null
+    },
+    "sidebar": {
+        "Jiek's Blog": "http://jiek.icitsoft.com",
+        "Jiek's Gitbook": "https://www.gitbook.com/@jiek"
+    }
+},
+"title": "Jiek's GitBook",
+"variables": {},
+"language": "zh-hans",
+"plugins": [
+    "anchors",
+    "anchor-navigation-ex",
+    "splitter",
+    "expandable-chapters",
+    "include",
+    
+    "facebook",
+    "ga",
+    "-livereload",
+    
+    "fbqx",
+    "advanced-emoji",
+    "include-codeblock", 
+    "emphasize",
+
+    "ace",
+    "mcqx"
+],
+"pluginsConfig": {
+    "facebook": {
+        "appKey": "206811166450251"
+    },
+    "ga": {
+        "token": "UA-91821795-1"
+    },
+    "include-codeblock": {
+        "template": "acefull",
+        "theme": "monokai"
+        },
+    "fontsettings": {
+            "theme": "white",
+            "family": "serif",
+            "size": 2
         }
     }
 }
