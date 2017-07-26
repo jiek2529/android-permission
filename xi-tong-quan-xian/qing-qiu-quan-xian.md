@@ -14,10 +14,9 @@ Android是一个特权分离的操作系统，每个应用程序都运行着不�
 例如，需要监控传入SMS消息的应用程序将指定：
 
 ```xml
-<manifest xmlns:android="http://schemas.android.com/apk/res/android"
-package="com.android.app.myapp" >
-<uses-permission android:name="android.permission.RECEIVE_SMS" />
-...
+<manifest  xmlns:android="http://schemas.android.com/apk/res/android" package="com.android.app.myapp" >
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    ...
 </manifest>
 ```
 
@@ -100,5 +99,12 @@ PHONE	|READ_PHONE_STATE<br/> CALL_PHONE<br/> READ_CALL_LOG<br/> WRITE_CALL_LOG<b
 SENSORS	|BODY_SENSORS
 SMS	|SEND_SMS<br/> RECEIVE_SMS<br/> READ_SMS<br/> RECEIVE_WAP_PUSH<br/> RECEIVE_MMS
 STORAGE	|READ_EXTERNAL_STORAGE<br/> WRITE_EXTERNAL_STORAGE
+
+------
+继续阅读：|您可能也有兴趣：
+---|---
+[允许功能要求的权限](https://developer.android.com/guide/topics/manifest/uses-feature-element.html#permissions)<br/>&#160;&#160;有关如何请求某些权限的信息会将您的应用程序隐含地限制在包含相应硬件或软件功能的设备上。|[设备兼容性](https://developer.android.com/guide/practices/compatibility.html)<br/>&#160;&#160;有关Android的信息适用于不同类型的设备，并介绍如何优化每个设备的应用程序，或将应用程序的可用性限制在不同的设备上。
+[< uses-permission>](https://developer.android.com/guide/topics/manifest/uses-permission-element.html)<br/>&#160;&#160;用于声明应用程序所需系统权限的清单标签的API参考。|[Android安全性概述](http://source.android.com/devices/tech/security/index.html)<br/>&#160;&#160;详细讨论Android平台的安全模式。
+[Manifest.permission](https://developer.android.com/reference/android/Manifest.permission.html)<br/>&#160;&#160;所有系统权限的API参考。|[定义权限](https://developer.android.com/guide/topics/permissions/defining.html)<br/>&#160;&#160;描述应用程序如何定义自己的自定义权限，使其能够与其他应用程序共享其信息和功能。
 
 reference: https://developer.android.com/guide/topics/permissions/requesting.html
