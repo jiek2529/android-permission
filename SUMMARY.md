@@ -11,4 +11,5 @@
   * [定义权限](xi-tong-quan-xian/ding-yi-quan-xian.md)
 * [普通权限](zheng-chang-quan-xian.md)
 * [危险权限](wei-xian-quan-xian.md)
+* [应用安全](ying-yong-an-quan.md)
 
