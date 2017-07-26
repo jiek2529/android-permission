@@ -19,20 +19,13 @@
 
 ---
 
-&lt; permission&gt;  
-&lt; uses-permission&gt;  
-&lt; uses-permission-sdk-23&gt;  
-&lt; uses-feature&gt;
-
----
-
 如: 网络 定位 文件读写 通讯录等
 
 1. sample [https://developer.android.com/samples/index.html](https://developer.android.com/samples/index.html)
 2. Permission [https://github.com/googlesamples/android-RuntimePermissions](https://github.com/googlesamples/android-RuntimePermissions)
-3. Contact 
+3. Contact (https://github.com/googlesamples/android-BasicContactables)
 
-[https://material.io/guidelines/patterns/permissions.html\#](https://material.io/guidelines/patterns/permissions.html#)
+[Material design 权限效果](https://material.io/guidelines/patterns/permissions.html#)
 
 ---
 
@@ -44,5 +37,10 @@
 
 * [permission-tree](https://developer.android.com/guide/topics/manifest/permission-tree-element.html)
 
+* [uses-permission](https://developer.android.com/guide/topics/manifest/uses-permission-element.html)
+
+* [uses-permission-sdk-23  ](https://developer.android.com/guide/topics/manifest/uses-permission-sdk-23-element.html)
+
+* [uses-feature](https://developer.android.com/guide/topics/manifest/uses-feature-element.html)
 
 
